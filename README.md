@@ -1,4 +1,4 @@
-Map of prehistoric towns and cities (i.e. up until 3000 BC). Definition of town/city tbd. on the fly and will never be perfect.
+Map of prehistoric towns and cities (i.e. up until 1000 BC). Definition of town/city tbd. on the fly and will never be perfect.
 
 Milestones:
 1. names of cities on map 
