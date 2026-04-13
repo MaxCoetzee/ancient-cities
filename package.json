@@ -6,6 +6,7 @@
     "build": "npx vite build"
   },
   "devDependencies": {
+    "csv-parse": "^6.2.1",
     "maplibre-gl": "^5.22.0",
     "typescript": "^6.0.2",
     "vite": "^8.0.8",
