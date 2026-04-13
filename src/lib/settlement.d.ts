@@ -9,7 +9,7 @@ export interface Settlement {
         latitude: number;
         longitude: number;
     };
-    /** The starting and ending date of inhabitation of the settlement in [astronomical year numbering](https://en.wikipedia.org/wiki/Astronomical_year_numbering). */
+    /** The starting and ending date of inhabitation of the settlement. -1000 is equal to 1000 BCE and 1000 is equal to 1000 CE. */
     inhabitation: {
         start: number;
         end?: number;
