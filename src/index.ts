@@ -26,7 +26,6 @@ class SettlementMarker extends maplibregl.Marker {
             opacityWhenCovered: "0"
         });
 
-
         this.setLngLat({
             lng: settlement.location.longitude,
             lat: settlement.location.latitude
@@ -34,8 +33,8 @@ class SettlementMarker extends maplibregl.Marker {
         this.addTo(map);
 
         // Create popup that appears on hover
-        this.popup = new maplibregl.Popup()
-            .setText("example");
+        this.popup = new maplibregl.Popup({ offset: [6, -6] })
+            .setHTML(`start: ${settlement.inhabitation.start}<br>${settlement.inhabitation.end ? "end: " + settlement.inhabitation.end : ''}`);
 
         // Add hover event listeners
         settlementMarkerElement.addEventListener("mouseenter", () => {
