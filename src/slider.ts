@@ -1,1 +1,0 @@
-const yearSlider = document.getElementById("year-slider");
