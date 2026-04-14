@@ -3,7 +3,7 @@ export interface Settlement {
     /** The name of the settlement on English Wikipedia. */
     name: string;
     /** URL to the Wikipedia page of the settlement. */
-    wikipediaURL: string;
+    wikipediaURL?: string;
     /** The location of the settlement according to Wikipedia. */
     location: {
         latitude: number;
