@@ -17,5 +17,6 @@ export interface Settlement {
     /** Estimated maximum population. */
     maxPopulation?: number;
     description: string;
-    pleiadesURI: string;
+    /** Data entered from own sources doesn't have a pleiadesURI. */
+    pleiadesURI?: string;
 }

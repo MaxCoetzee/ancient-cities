@@ -2,6 +2,7 @@
     import { mount, onMount, unmount } from "svelte";
     import { MapLibre, Marker, Popup, type StyleSpecification } from "svelte-maplibre";
     import type { PageProps } from "./$types";
+    import { PLEIADES_SETTLEMENTS_PATH_SUFFIX } from "$lib/const";
 
     let { data }: PageProps = $props();
 
@@ -25,28 +26,51 @@
     };
 
     let year = $state(-10000);
+    let yearSlider = $state(true);
 </script>
 
 <svelte:head>
     <title>Map of Prehistoric Towns and Cities</title>
-    <link rel="preload" href="/settlements.json" as="fetch" type="application/json" />
+    <link rel="preload" href={PLEIADES_SETTLEMENTS_PATH_SUFFIX} as="fetch" type="application/json" />
 </svelte:head>
 
 <div id="slider-container">
-    <p>{year}</p>
-    <input bind:value={year} id="year-slider" type="range" min="-15000" max="-1000" step="100" />
+    <p>Year Slider</p>
+    <input bind:checked={yearSlider} type="checkbox" id="show-year-slider" />
+    {#if yearSlider}
+        <p>{year}</p>
+        <input bind:value={year} id="year-slider" type="range" min="-15000" max="-1000" step="100" />
+    {/if}
 </div>
 
 <MapLibre center={[34, 34]} zoom={3} class="map" standardControls style={SATELLITE_STYLE} projection={{ type: "globe" }}>
-    {#each data.settlements as { name, inhabitation, location, wikipediaURL, pleiadesURI, description }}
+    {#each data.pleiadesSettlements as { name, inhabitation, location, wikipediaURL, pleiadesURI, description }}
         {@const abandoned = inhabitation.end != null && inhabitation.end <= year}
-
-        {#if inhabitation.start <= year}
-            <Marker class="settlement-marker {abandoned ? 'abandoned' : ''}" lngLat={{ lat: location.latitude, lng: location.longitude }} anchor="top-left">
+        {#if yearSlider}
+            {#if inhabitation.start <= year}
+                <Marker class="settlement-marker {abandoned ? 'abandoned' : ''}" lngLat={{ lat: location.latitude, lng: location.longitude }} anchor="top-left">
+                    <div class="location-circle"></div>
+                    {#if !abandoned}
+                        <p class="label">{name}</p>
+                    {/if}
+                    <Popup openOn="click" offset={[6, 0]} closeButton={true}>
+                        <h3>{name}</h3>
+                        <p>{description}</p>
+                        <p>start: {inhabitation.start}</p>
+                        {#if inhabitation.end}
+                            <p>end: {inhabitation.end}</p>
+                        {/if}
+                        {#if wikipediaURL}
+                            <a href={wikipediaURL} target="_blank">Wikipedia</a>
+                        {/if}
+                        <a href={pleiadesURI} target="_blank">Pleiades</a>
+                    </Popup>
+                </Marker>
+            {/if}
+        {:else}
+            <Marker class="settlement-marker" lngLat={{ lat: location.latitude, lng: location.longitude }} anchor="top-left">
                 <div class="location-circle"></div>
-                {#if !abandoned}
-                    <p class="label">{name}</p>
-                {/if}
+                <p class="label">{name}</p>
                 <Popup openOn="click" offset={[6, 0]} closeButton={true}>
                     <h3>{name}</h3>
                     <p>{description}</p>

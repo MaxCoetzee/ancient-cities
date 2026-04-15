@@ -1,10 +1,15 @@
+import { OWN_SETTLEMENTS_PATH_SUFFIX, PLEIADES_SETTLEMENTS_PATH_SUFFIX } from '$lib/const';
 import type { Settlement } from '$lib/settlement';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = async ({ fetch }) => {
-    const response = await fetch('/settlements.json');
+    const [pleiadesResponse, ownResponse] = await Promise.all([
+        fetch(PLEIADES_SETTLEMENTS_PATH_SUFFIX),
+        fetch(OWN_SETTLEMENTS_PATH_SUFFIX)
+    ]);
 
     return {
-        settlements: (await response.json()) as Settlement[],
+        pleiadesSettlements: (await pleiadesResponse.json()) as Settlement[],
+        ownSettlements: (await ownResponse.json()) as Settlement[]
     };
 };
