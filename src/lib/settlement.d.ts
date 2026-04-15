@@ -13,10 +13,15 @@ export interface Settlement {
     inhabitation: {
         start: number;
         end?: number;
+        /** Temporary property to mark that the start date exists on and was retrieved from Wikidata, in case they will be added to Wikidata at a later point. */
+        __start_from_wikidata: boolean;
+        /** Temporary property to mark that the end date exists on and was retrieved from Wikidata, in case they will be added to Wikidata at a later point. */
+        __end_from_wikidata: boolean;
     };
     /** Estimated maximum population. */
     maxPopulation?: number;
-    description: string;
+    /** A brief 1-2 sentences description of the settlement along with its relevance and context. */
+    description?: string;
     /** Data entered from own sources doesn't have a pleiadesURI. */
     pleiadesURI?: string;
 }

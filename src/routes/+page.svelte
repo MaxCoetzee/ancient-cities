@@ -2,7 +2,7 @@
     import { mount, onMount, unmount } from "svelte";
     import { MapLibre, Marker, Popup, type StyleSpecification } from "svelte-maplibre";
     import type { PageProps } from "./$types";
-    import { PLEIADES_SETTLEMENTS_PATH_SUFFIX } from "$lib/const";
+    import { OWN_SETTLEMENTS_PATH_SUFFIX, PLEIADES_SETTLEMENTS_PATH_SUFFIX } from "$lib/const";
 
     let { data }: PageProps = $props();
 
@@ -27,11 +27,16 @@
 
     let year = $state(-10000);
     let yearSlider = $state(true);
+    
+    // omit pleiades settlementes for now
+    // const settlements = data.pleiadesSettlements.concat(data.ownSettlements);
+    const settlements = data.ownSettlements;
 </script>
 
 <svelte:head>
     <title>Map of Prehistoric Towns and Cities</title>
     <link rel="preload" href={PLEIADES_SETTLEMENTS_PATH_SUFFIX} as="fetch" type="application/json" />
+    <link rel="preload" href={OWN_SETTLEMENTS_PATH_SUFFIX} as="fetch" type="application/json" />
 </svelte:head>
 
 <div id="slider-container">
@@ -44,7 +49,7 @@
 </div>
 
 <MapLibre center={[34, 34]} zoom={3} class="map" standardControls style={SATELLITE_STYLE} projection={{ type: "globe" }}>
-    {#each data.pleiadesSettlements as { name, inhabitation, location, wikipediaURL, pleiadesURI, description }}
+    {#each settlements as { name, inhabitation, location, wikipediaURL, pleiadesURI, description }}
         {@const abandoned = inhabitation.end != null && inhabitation.end <= year}
         {#if yearSlider}
             {#if inhabitation.start <= year}
@@ -63,7 +68,9 @@
                         {#if wikipediaURL}
                             <a href={wikipediaURL} target="_blank">Wikipedia</a>
                         {/if}
-                        <a href={pleiadesURI} target="_blank">Pleiades</a>
+                        {#if pleiadesURI}
+                            <a href={pleiadesURI} target="_blank">Pleiades</a>
+                        {/if}
                     </Popup>
                 </Marker>
             {/if}
