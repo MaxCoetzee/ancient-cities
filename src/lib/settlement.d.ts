@@ -16,4 +16,6 @@ export interface Settlement {
     };
     /** Estimated maximum population. */
     maxPopulation?: number;
+    description: string;
+    pleiadesURI: string;
 }
