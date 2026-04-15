@@ -27,7 +27,7 @@
 
     let year = $state(-10000);
     let yearSlider = $state(true);
-    
+
     // omit pleiades settlementes for now
     // const settlements = data.pleiadesSettlements.concat(data.ownSettlements);
     const settlements = data.ownSettlements;
@@ -168,13 +168,11 @@
     }
 
     :global(.settlement-marker.abandoned) {
-        a {
-            .location-circle {
-                background-color: grey;
-            }
-            .label {
-                color: grey;
-            }
+        .location-circle {
+            background-color: grey;
+        }
+        .label {
+            color: grey;
         }
     }
 
