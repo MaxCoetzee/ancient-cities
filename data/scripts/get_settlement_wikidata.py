@@ -56,8 +56,8 @@ if __name__ == "__main__":
         "name": wikipedia_info["title"],
         "description": wikipedia_info["extract"],
         "location": {
-            "latitude": wikipedia_info["coordinates"]["lat"],
-            "longitude": wikipedia_info["coordinates"]["lon"]
+            "latitude": -1,
+            "longitude": -1
         },
         "inhabitation": {
             "start": "",
@@ -66,6 +66,17 @@ if __name__ == "__main__":
             "__end_from_wikidata": False
         }
     }
+
+    if "coordinates" in wikipedia_info:
+        settlement["location"] = {
+            "latitude": wikipedia_info["coordinates"]["lat"],
+            "longitude": wikipedia_info["coordinates"]["lon"]
+        }
+    else:
+        print(
+            colored("No coordinates.", color="red", attrs=["bold"]),
+            file=sys.stderr
+        )
 
     wikidata_item_statements = requests.get(
         url=f"{WIKIBASE_REST_API_BASE}/entities/items/{wikidata_item_id}/statements",
@@ -91,7 +102,7 @@ if __name__ == "__main__":
             break
 
     if not found_inhabitation_start:
-        print("No property found to use for inhabitation start.")
+        print("No property found to use for inhabitation start.", file=sys.stderr)
 
     found_inhabitation_end = False
     for p in inhabitation_wikidata_properties["end"]:
@@ -110,13 +121,14 @@ if __name__ == "__main__":
             break
 
     if not found_inhabitation_end:
-        print("No property found to use for inhabitation end.")
+        print("No property found to use for inhabitation end.", file=sys.stderr)
 
     if (not found_inhabitation_start) or (not found_inhabitation_end):
-        print("Look at properties?",
-              f"{WIKIBASE_REST_API_BASE}/entities/items/{wikidata_item_id}/statements")
+        print(
+            "Look at properties?",
+            f"{WIKIBASE_REST_API_BASE}/entities/items/{wikidata_item_id}/statements",
+            file=sys.stderr
+        )
 
-    print()
-    print(json.dumps(settlement, indent=4))
-
-    # print(json.dumps(settlement_from_wikipedia_url(sys.argv[1]), ensure_ascii=False, indent=4))
+    print(file=sys.stderr)
+    print(json.dumps(settlement, indent=4), file=sys.stdout)

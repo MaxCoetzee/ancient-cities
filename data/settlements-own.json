@@ -1,1 +1,431 @@
-[]
+[
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/K%C3%B6rtik_Tepe",
+        "name": "K\u00f6rtik Tepe",
+        "description": "K\u00f6rtiktepe or K\u00f6rtik Tepe is the oldest known Neolithic archaeological site in Turkey, occupied from 10,700 BCE at the end of the Epipaleolithic, throughout much of the Younger Dryas, and during the early Pre-Pottery Neolithic A, to circa 9250 BCE, when it was abandoned. Together with Tell Abu Hureyra and Tell Mureybet in northern Syria, K\u00f6rtik Tepe is one of the only three securely dated sedentary sites in Upper Mesopotamia during the droughts and cold period of the Younger Dryas, and one of the earliest known settled site by hunter-gatherers, complete with trade, art, food production, religious ritual, and social complexity.",
+        "location": {
+            "latitude": 37.81441667,
+            "longitude": 40.98389444
+        },
+        "inhabitation": {
+            "start": -10700,
+            "end": -9250,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Napata",
+        "name": "Napata",
+        "description": "Napata was a city of ancient Kush at the fourth cataract of the Nile founded by the Egyptian Amun cult for Egyptian pilgrims given by its, as suggested, Egyptian name. It is located approximately 1.5 kilometers from the east side of the river at the site of modern Karima, Sudan.",
+        "location": {
+            "latitude": 18.53,
+            "longitude": 31.84
+        },
+        "inhabitation": {
+            "start": -1500,
+            "end": 50,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk",
+        "name": "\u00c7atalh\u00f6y\u00fck",
+        "description": "\u00c7atalh\u00f6y\u00fck is a tell of a very large Neolithic and Chalcolithic proto-city settlement in southern Anatolia, which existed from approximately 7500 BC to 5600 BC and flourished around 7000 BC. \u00c7atalh\u00f6y\u00fck overlooks the Konya Plain, southeast of the present-day city of Konya in Turkey, approximately 140\u00a0km (87\u00a0mi) from the twin-coned volcano of Mount Hasan.",
+        "location": {
+            "latitude": 37.66666667,
+            "longitude": 32.82805556
+        },
+        "inhabitation": {
+            "start": -7500,
+            "end": -5700,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+        "name": "G\u00f6bekli Tepe",
+        "description": "G\u00f6bekli Tepe is a Neolithic archaeological site in Upper Mesopotamia (al-Jazira) in modern-day Turkey. The settlement was inhabited from around 9500\u00a0BCE to at least 8000\u00a0BCE, during the Pre-Pottery Neolithic. It is known for its large circular structures that contain large stone pillars\u00a0\u2013 among the world's oldest known megaliths. Many of these pillars are decorated with anthropomorphic details, clothing, and sculptural reliefs of wild animals, providing archaeologists insights into prehistoric religion and the iconography of the period. The 15\u00a0m (50\u00a0ft) high, 8\u00a0ha (20-acre) tell is covered with ancient domestic structures and other small buildings, quarries, and stone-cut cisterns from the Neolithic, as well as some traces of activity from later periods.",
+        "location": {
+            "latitude": 37.22361111,
+            "longitude": 38.92166667
+        },
+        "inhabitation": {
+            "start": -10000,
+            "end": -7000,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Boncuklu_Tarla",
+        "name": "Boncuklu Tarla",
+        "description": "Boncuklu Tarla is an archaeological site in the Southeastern Anatolia of Turkey. It is the remains of a settlement occupied from the Late Epipalaeolithic to Pre-Pottery Neolithic B periods, starting over 12,000 years ago. It was discovered in 2008 during an archaeological survey in advance of the construction of the Il\u0131su Dam and has been excavated by a team from Mardin Museum since 2012.",
+        "location": {
+            "latitude": 37.529444,
+            "longitude": 41.832361
+        },
+        "inhabitation": {
+            "start": -12000,
+            "end": -7000,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Boncuklu_H%C3%B6y%C3%BCk",
+        "name": "Boncuklu H\u00f6y\u00fck",
+        "description": "Boncuklu H\u00f6y\u00fck is a Neolithic archaeological site in Central Anatolia, Turkey, situated around 9 km from the more famous \u00c7atalh\u00f6y\u00fck site. The tell is made up of the remains of one of the world's oldest villages, occupied between around 8300 to 7800 BCE. The buildings are small and oval shaped with walls constructed of mudbricks. The remains of burials of human bodies were found below the floors of the buildings. The earliest known ceramics of Anatolia have been discovered there.",
+        "location": {
+            "latitude": 37.75183,
+            "longitude": 32.86478
+        },
+        "inhabitation": {
+            "start": -8500,
+            "end": -7800,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/A%C5%9F%C4%B1kl%C4%B1_H%C3%B6y%C3%BCk",
+        "name": "A\u015f\u0131kl\u0131 H\u00f6y\u00fck",
+        "description": "A\u015f\u0131kl\u0131 H\u00f6y\u00fck is a settlement mound located nearly 1 kilometre (0.62\u00a0mi) south of K\u0131z\u0131lkaya village on the bank of the Melendiz brook, and 25\u00a0km (16\u00a0mi) southeast of Aksaray, Turkey.\nA\u015f\u0131kl\u0131 H\u00f6y\u00fck is located in an area covered by the volcanic tuff of central Cappadocia, in Aksaray Province. The archaeological site of A\u015f\u0131kl\u0131 H\u00f6y\u00fck was first settled in the Pre-Pottery Neolithic period, around 8,200 BC.",
+        "location": {
+            "latitude": 38.34888889,
+            "longitude": 34.23
+        },
+        "inhabitation": {
+            "start": -8200,
+            "end": -7400,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Beidha_(archaeological_site)",
+        "name": "Beidha (archaeological site)",
+        "description": "Beidha, also sometimes Bayda, is a major Neolithic archaeological site a few kilometres north of Petra near Siq al-Barid in Jordan.\n It is included in Petra's inscription as a UNESCO World Heritage Site.",
+        "location": {
+            "latitude": 30.37078,
+            "longitude": 35.447756
+        },
+        "inhabitation": {
+            "start": -7500,
+            "end": -6500,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Uruk",
+        "name": "Uruk",
+        "description": "Uruk, the archeological site known today as Warka, was an ancient city in the Near East or West Asia, located east of the current bed of the Euphrates River, on an ancient, now-dried channel of the river in Muthanna Governorate, Iraq. The site lies 93 kilometers northwest of ancient Ur, 108 kilometers southeast of ancient Nippur, and 24 kilometers northwest of ancient Larsa.",
+        "location": {
+            "latitude": 31.32416667,
+            "longitude": 45.63722222
+        },
+        "inhabitation": {
+            "start": -5000,
+            "end": 700,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Tell_Brak",
+        "name": "Tell Brak",
+        "description": "Tell Brak was an ancient city in Syria; it is one of the earliest known cities in the world. Its remains constitute a tell located in the Upper Khabur region, near the modern village of Tell Brak, 50\u00a0kilometers north-east of Al-Hasaka city, Al-Hasakah Governorate. The city's original name is unknown. During the second half of the third millennium BC, the city was known as Nagar and later on, Nawar.",
+        "location": {
+            "latitude": 36.66761667,
+            "longitude": 41.05864444
+        },
+        "inhabitation": {
+            "start": -6500,
+            "end": 1000,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Eridu",
+        "name": "Eridu",
+        "description": "Eridu was a Sumerian city located at Tell Abu Shahrain, also Abu Shahrein or Tell Abu Shahrayn, an archaeological site in Lower Mesopotamia. It is located in Dhi Qar Governorate, Iraq, near the modern city of Basra. Eridu is traditionally considered the earliest city in southern Mesopotamia based on the Sumerian King List. Located 24\u00a0km (15\u00a0mi) south-southwest of the ancient site of Ur, Eridu was the southernmost of a conglomeration of Sumerian cities that grew around temples, almost in sight of one another. The city gods of Eridu were Enki and his consort Damkina. Enki, later known as Ea, was considered to have founded the city. His temple was called E-Abzu, as Enki was believed to live in Abzu, an aquifer from which all life was thought to stem. According to Sumerian temple hymns, another name for the temple of Ea/Enki was called Esira (Esirra).\"... The temple is constructed with gold and lapis lazuli, Its foundation on the nether-sea (apsu) is filled in. By the river of Sippar (Euphrates) it stands. O Apsu pure place of propriety, Esira, may thy king stand within thee. ...\"",
+        "location": {
+            "latitude": 30.81583333,
+            "longitude": 45.99611111
+        },
+        "inhabitation": {
+            "start": -5500,
+            "end": -600,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Lagash",
+        "name": "Lagash",
+        "description": "Lagash was an ancient city-state located northwest of the junction of the Euphrates and Tigris rivers and east of Uruk, about 22 kilometres (14\u00a0mi) east of the modern town of Al-Shatrah, Iraq. Lagash was one of the oldest cities of the Ancient Near East, and the Lagash state incorporated the cities of Lagash, Girsu, and Nina. Girsu, about 25\u00a0km (16\u00a0mi) northwest of Lagash, was the religious center of the Lagash state, with its main temple, the E-ninnu, dedicated to the god Ningirsu. The ancient site of Nina, around 10\u00a0km (6.2\u00a0mi) away, marks the southern limit of the state.",
+        "location": {
+            "latitude": 31.41138889,
+            "longitude": 46.40722222
+        },
+        "inhabitation": {
+            "start": -2500,
+            "end": -2000,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Nippur",
+        "name": "Nippur",
+        "description": "Nippur was an ancient Sumerian city. It was the special seat of the worship of the Sumerian god Enlil, the \"Lord Wind\", ruler of the cosmos, subject to An alone. Nippur was located in modern Nuffar 8 kilometers north of modern Afak, Al-Q\u0101disiyyah Governorate, Iraq. It is roughly 200 km south of modern Baghdad and about 100 km southeast of the ancient city of Babylon. Occupation at the site extended back to the Ubaid period, the Uruk period, and the Jemdet Nasr period. The origin of the ancient name is unknown but different proposals have been made.",
+        "location": {
+            "latitude": 32.12644444,
+            "longitude": 45.23338056
+        },
+        "inhabitation": {
+            "start": -3500,
+            "end": 800,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Mari,_Syria",
+        "name": "Mari, Syria",
+        "description": "Mari was an ancient Semitic city-state in modern-day Syria. Its remains form a tell 11 kilometres (6.8\u00a0mi) north-west of Abu Kamal on the western bank of the Euphrates River, some 120 kilometres (75\u00a0mi) southeast of Deir ez-Zor. It flourished as a trade center and hegemonic state between 2900\u00a0BC and 1759\u00a0BC. The city was built in the middle of the Euphrates trade routes between Sumer in the south and the Eblaite kingdom and the Levant in the west.",
+        "location": {
+            "latitude": 34.54944444,
+            "longitude": 40.89
+        },
+        "inhabitation": {
+            "start": -2900,
+            "end": -1759,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Diyarbak%C4%B1r",
+        "name": "Diyarbak\u0131r",
+        "description": "\nThe history of Diyarbakır, one of the largest cities in southeastern Turkey and a metropolitan municipality of Turkey, spans millennia. Diyarbakır is situated on the banks of the Tigris River. The city was first mentioned by Assyrian texts as the capital of a Semitic kingdom. It was ruled by a succession of nearly every polity that controlled Upper Mesopotamia, including the Mitanni, Arameans, Assyrians, Urartu, Armenians, Achaemenid Persians, Medes, Seleucids, and Parthians. The Roman Republic gained control of the city in the first century BC, by which stage it was named \"Amida\". Amida was then part of the Christian Byzantine Empire until the seventh-century Muslim conquest, after which a variety of Muslim polities gave way to the Ottoman Empire in the 16th century. It has been part of the Republic of Turkey since the dissolution of the Ottoman Empire in the early 20th century.",
+        "location": {
+            "latitude": 37.91,
+            "longitude": 40.24
+        },
+        "inhabitation": {
+            "start": -8000,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Plovdiv",
+        "name": "Plovdiv",
+        "description": "\nThe city of Plovdiv is situated in southern Bulgaria. During its long history it has been conquered by numerous peoples: Thracians, Macedon, Romans, Byzantines, Bulgarians, Ottoman Turks which contributed to the city's various historical heritage.",
+        "location": {
+            "latitude": 42.15,
+            "longitude": 24.75
+        },
+        "inhabitation": {
+            "start": -6000,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Argos,_Peloponnese",
+        "name": "Argos, Peloponnese",
+        "description": "Argos is a city and a former municipality in the Peloponnese region of Greece, and one of the oldest continuously inhabited cities in the world. It is the largest city in Argolis, having nearly twice the population of its capital, Nafplio.",
+        "location": {
+            "latitude": 37.61666667,
+            "longitude": 22.71666667
+        },
+        "inhabitation": {
+            "start": -5000,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Byblos",
+        "name": "Byblos",
+        "description": "Byblos, also known as Jbail, Jebeil, Jbeil or Jubayl, is an ancient city in the Keserwan-Jbeil Governorate of Lebanon. The area is believed to have been first settled between 8800 and 7000\u00a0BC and continuously inhabited since 5000\u00a0BC. During its history, Byblos was part of numerous cultures including Canaanite, Egyptian, Phoenician, Assyrian, Persian, Hellenistic, Roman, Genoese, Mamluk and Ottoman. Urbanisation is thought to have begun during the third millennium BC when it developed into a city, making it one of the oldest cities in the world, if not the oldest. It is a UNESCO World Heritage Site.",
+        "location": {
+            "latitude": 34.12361111,
+            "longitude": 35.65194444
+        },
+        "inhabitation": {
+            "start": -8000,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Aleppo",
+        "name": "Aleppo",
+        "description": "The Ancient City of Aleppo is the historic city centre of Aleppo, Syria. Prior to the Syrian Civil War, many districts of the ancient city remained essentially unchanged since they were initially constructed between the 11th and 16th centuries. Being subjected to constant invasions and political instability, the inhabitants of the city were forced to build economically independent cell-like quarters and districts, most of which were delineated along ethnic and religious lines. These urban subdistricts, along with the ancient walled city that they surround, comprise an approximate area of 350 hectares and are home to more than 120,000 residents.",
+        "location": {
+            "latitude": 36.2,
+            "longitude": 37.16
+        },
+        "inhabitation": {
+            "start": -5000,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Bhirrana",
+        "name": "Bhirrana",
+        "description": "Bhirrana, also Bhirdana and Birhana, is an archaeological site, located in a small village in the Fatehabad district of the north Indian state of Haryana. Bhirrana's earliest archaeological layers contained two charcoal samples dating to the 8th-7th millennium BCE, predating the Indus Valley civilisation, but occurring in the same levels with Hakra Ware pottery which had been dated to the 4th millennium BCE in other sites of the region, as well as \"about half a dozen\" other charcoal samples from the early levels of Bhirrana dated 3200-2600 BCE, and smelted copper artefacts indicating a Chalcolithic rather than Neolithic stage of development. The site is one of the many sites seen along the channels of the seasonal Ghaggar river, identified by ASI archeologists to be the Post-IVC, Rigvedic Saraswati river of c. 1500 BCE.",
+        "location": {
+            "latitude": 29.554167,
+            "longitude": 75.548611
+        },
+        "inhabitation": {
+            "start": -7500,
+            "end": -2500,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Lepenski_Vir",
+        "name": "Lepenski Vir",
+        "description": "Lepenski Vir, located in Serbia, is an important archaeological site of the Lepenski Vir culture. It includes Mesolithic Iron Gates Hunter-Gatherers period and transition to Early Neolithic Early European Farmers period of the Balkans.",
+        "location": {
+            "latitude": 44.56111111,
+            "longitude": 22.02416667
+        },
+        "inhabitation": {
+            "start": -7500,
+            "end": -4100,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Mehrgarh",
+        "name": "Mehrgarh",
+        "description": "Mehrgarh is a Neolithic archaeological site situated on the Kacchi Plain of Balochistan in Pakistan. It is located near the Bolan Pass, to the west of the Indus River and between the modern-day Pakistani cities of Quetta, Kalat and Sibi. The site was discovered in 1974 by the French Archaeological Mission in the Indus Basin led by the French archaeologists Jean-Fran\u00e7ois Jarrige and Catherine Jarrige. Mehrgarh was excavated continuously between 1974 and 1986, and again from 1997 to 2000. Archaeological material has been found in six mounds, and about 32,000 artifacts have been collected from the site. The earliest settlement at Mehrgarh, located in the northeast corner of the 495-acre (2.00\u00a0km2) site, was a small farming village dated from 7000 BCE or 5250 BCE.",
+        "location": {
+            "latitude": 29.38333333,
+            "longitude": 67.61666667
+        },
+        "inhabitation": {
+            "start": -7000,
+            "end": -2600,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Sesklo",
+        "name": "Sesklo",
+        "description": "Sesklo is a village in Greece that is located near Volos, a city located within the municipality of Aisonia. The municipality is located within the regional unit of Magnesia that is located within the administrative region of Thessaly. During the prehistory of Southeastern Europe, Sesklo was a significant settlement of Neolithic Greece, before the advent of the Bronze Age and millennia before the Mycenaean period.",
+        "location": {
+            "latitude": 39.355,
+            "longitude": 22.835
+        },
+        "inhabitation": {
+            "start": -7000,
+            "end": -5000,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Sarazm",
+        "name": "Sarazm",
+        "description": "Sarazm is an ancient town and also a jamoat in north-western Tajikistan. It dates back to the 4th millennium BC, with C14 dates ranging from 3900-2100 BC, and is today a UNESCO World Heritage Site. The jamoat is part of the city of Panjakent in Sughd Region, and has a total population of 27,877 (2015). It consists of 21 villages, including Chimqal'a, Abdusamad, Bostondeh, Kamar, Kamar-Tash and Sohibnazar.",
+        "location": {
+            "latitude": 39.50833333,
+            "longitude": 67.46111111
+        },
+        "inhabitation": {
+            "start": -4000,
+            "end": -2100,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Jiahu",
+        "name": "Jiahu",
+        "description": "Jiahu was the site of a Neolithic settlement based in the central plain of ancient China, near the Yellow River. It is located between the floodplains of the Ni River to the north, and the Sha River to the south, 22\u00a0km (14\u00a0mi) north of modern Wuyang in Henan. Most archaeologists consider the site to be one of the earliest examples of the Peiligang culture. Settled c.\u20097000\u00a0BC, the site was later flooded and abandoned around 5700\u00a0BC. The settlement was surrounded by a moat and covered a relatively large area of 55,000 square metres (5.5\u00a0ha). At one time, it was \"a complex, highly organized Chinese Neolithic society\", with a population of between 250 and 800 people.",
+        "location": {
+            "latitude": 33.613,
+            "longitude": 113.667
+        },
+        "inhabitation": {
+            "start": -7000,
+            "end": -5800,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Tell_es-Sultan",
+        "name": "Tell es-Sultan",
+        "description": "Tell es-Sultan, also known as Tel Jericho or Ancient Jericho, is an archaeological site and a UNESCO World Heritage Site in Palestine, in the city of Jericho, consisting of the remains of the oldest fortified city in the world.",
+        "location": {
+            "latitude": 31.87111111,
+            "longitude": 35.44388889
+        },
+        "inhabitation": {
+            "start": -9600,
+            "end": -500,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Caral",
+        "name": "Caral",
+        "description": "The Sacred City of Caral-Supe, or simply Caral, is an archaeological site in Peru where the remains of the main city of the Caral civilization are found. It is located in the Supe District of Peru, near the current town of Caral, 182 kilometres (113\u00a0mi) north of Lima, 23 kilometres (14\u00a0mi) from the coast and 350 meters above sea level. It is attributed an antiquity of 5,000 years and it is considered the oldest city in the Americas and one of the oldest in the world. No other site has been found with such a diversity of monumental buildings or different ceremonial and administrative functions in the Americas as early as Caral. It has been declared a Humanity Cultural Heritage site by UNESCO.",
+        "location": {
+            "latitude": -10.89361111,
+            "longitude": -77.52027778
+        },
+        "inhabitation": {
+            "start": -2600,
+            "end": -2000,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Thebes,_Egypt",
+        "name": "Thebes, Egypt",
+        "description": "Thebes, known to the ancient Egyptians as Waset, was an ancient Egyptian city located along the Nile about 800 kilometers (500\u00a0mi) south of the Mediterranean. Its ruins lie within the modern Egyptian city of Luxor. Thebes was the main city of the fourth Upper Egyptian nome and was the capital of Egypt for long periods during the Middle Kingdom and New Kingdom eras.",
+        "location": {
+            "latitude": 25.72055556,
+            "longitude": 32.61027778
+        },
+        "inhabitation": {
+            "start": -3200,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Mirgissa",
+        "name": "Mirgissa",
+        "description": "Mirgissa was a settlement in Northern state, Sudan. Situated at the 2nd cataract in Wadi Halfa, it contained one of the largest fortresses in Nubia. In the time of Thutmose II, 250 to 450 people inhabited the area. The first European explorer was English geologist Sir Henry George Lyons in 1892, and was excavated without Sudanese permission, by the French Egyptologist Jean Vercoutter from 1962 to 1969. In addition to the fort, excavations uncovered the remains of two cities, one of which was fortified, a northern enclosure, two cemeteries, a boat slide, and a port. Construction of the Aswan High Dam caused the disappearance of Mirgissa, which now lies under the waters of Lake Nubia.",
+        "location": {
+            "latitude": 21.48,
+            "longitude": 30.97
+        },
+        "inhabitation": {
+            "start": -3500,
+            "end": 500,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    }
+]
