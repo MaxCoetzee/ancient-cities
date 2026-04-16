@@ -427,5 +427,185 @@
             "__start_from_wikidata": false,
             "__end_from_wikidata": false
         }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Ohalo_II",
+        "name": "Ohalo II",
+        "description": "Ohalo II is an archaeological site in the Northern District, Israel, near Kinneret, on the southwest shore of the Sea of Galilee. It is one of the best preserved hunter-gatherer archaeological sites of the Last Glacial Maximum, radiocarbon dated to around 23,000 BP (calibrated). It is at the junction of the Upper Paleolithic and the Epipaleolithic, and has been attributed to both periods. The site is significant for two findings which are the world's oldest: the earliest brushwood dwellings and evidence for the earliest small-scale plant cultivation, some 11,000 years before the onset of agriculture. The numerous fruit and cereal grain remains preserved in anaerobic conditions under silt and water are also exceedingly rare due to their general quick decomposition.",
+        "location": {
+            "latitude": 32.722093,
+            "longitude": 35.572143
+        },
+        "inhabitation": {
+            "start": -22000,
+            "end": -22100,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Kharaneh_IV",
+        "name": "Kharaneh IV",
+        "description": "Kharaneh IV is an archaeological site in Jordan. The site contains evidence of human activity dating to the Late Pleistocene. Its main period of occupation was 18,900 to 16,600 BC.",
+        "location": {
+            "latitude": 31.72375,
+            "longitude": 36.45444444
+        },
+        "inhabitation": {
+            "start": -18900,
+            "end": -16600,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Star_Carr",
+        "name": "Star Carr",
+        "description": "Star Carr is a Mesolithic archaeological site in North Yorkshire, England. It is around five miles (8\u00a0km) south of Scarborough.\nIt is generally regarded as the most important and informative Mesolithic site in Great Britain.",
+        "location": {
+            "latitude": 54.21416667,
+            "longitude": -0.42333333
+        },
+        "inhabitation": {
+            "start": -8770,
+            "end": -8460,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Skara_Brae",
+        "name": "Skara Brae",
+        "description": "Skara Brae is a stone-built Neolithic settlement, located on the Bay of Skaill in the parish of Sandwick, on the west coast of Mainland, the largest island in the Orkney archipelago of Scotland. It consisted of ten clustered houses, made of flagstones, in earthen dams that provided support for the walls; the houses included stone hearths, beds, and cupboards. A primitive sewer system, with \"toilets\" and drains in each house, included water used to flush waste into a drain and out to the ocean.",
+        "location": {
+            "latitude": 59.0487138,
+            "longitude": -3.3417499
+        },
+        "inhabitation": {
+            "start": -3180,
+            "end": -2500,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Knossos",
+        "name": "Knossos",
+        "description": "Knossos is an archaeological site in Crete that was occupied from the Neolithic through the ninth century AD. The site was a major centre of the Minoan civilization and is known for its association with the Greek myth of Theseus and the minotaur. During the early Iron Age it was one of the most prosperous Aegean civilizations, and it eventually became a Roman colony during the Classical period. It is located on the outskirts of Heraklion, and remains a popular tourist destination. Knossos is considered by many to be the oldest city in Europe and one of the earliest Neolithic settlements in Crete.",
+        "location": {
+            "latitude": 35.29805556,
+            "longitude": 25.16305556
+        },
+        "inhabitation": {
+            "start": -7000,
+            "end": -1100,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Galatas_Palace",
+        "name": "Galatas Palace",
+        "description": "The  Galatas Palace is a Minoan archaeological site in Heraklion, Crete, Greece about 30 kilometers southeast of the city of Heraklion discovered in the early 1990s. Built on an older Protopalatial settlement dating to the MM IB period, a Minoan palace was constructed in the early Neopalatial Period, during the Early MM IIIA period. The palatial center was destroyed by a conflagration at the end of the MM IIIA period.",
+        "location": {
+            "latitude": 35.1746,
+            "longitude": 25.2457
+        },
+        "inhabitation": {
+            "start": -3100,
+            "end": -1100,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Nanzhuangtou",
+        "name": "Nanzhuangtou",
+        "description": "Nanzhuangtou, dated to 12,600\u201311,300 cal BP or 11,500\u201311,000 cal BP, roughly 9,500\u20139,000 BC, or 10,700\u20139,500 BP, roughly 8,700\u20137,500 BC, is an Initial Neolithic site near Lake Baiyangdian in Xushui County, Hebei, China. The site was discovered under a peat bog. Over 47 pieces of pottery were discovered at the site. Nanzhuangtou is also the earliest Neolithic site yet discovered in northern China. There is evidence that the people at Nanzhuangtou had domestic dogs 10,000 years ago. Stone grinding slabs and rollers and bone artifacts were also discovered at the site. It is one of the earliest sites showing evidence of millet cultivation dating to 10,500 BP. Pottery can also be dated to 10,200 BP.",
+        "location": {
+            "latitude": 39.11666667,
+            "longitude": 115.65
+        },
+        "inhabitation": {
+            "start": -10600,
+            "end": -9300,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Ayn_Ghazal_(archaeological_site)",
+        "name": "Ayn Ghazal (archaeological site)",
+        "description": "Ayn Ghazal is a Neolithic archaeological site located in Amman, Jordan, about 2\u00a0km north-west of Amman Civil Airport. The site is remarkable for being the place where the \u02bfAin Ghazal statues were found, which are among the oldest large-sized statues ever discovered. It lies on the banks of the Seil Amman stream, near the point it flows into the Zarqa River.",
+        "location": {
+            "latitude": 31.988,
+            "longitude": 35.976
+        },
+        "inhabitation": {
+            "start": -7000,
+            "end": -5000,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/%CA%BFAin_Mallaha",
+        "name": "\u02bfAin Mallaha",
+        "description": "\u02bfAin Mallaha or Eynan was an Epipalaeolithic settlement belonging to the Natufian culture, occupied circa 14,326\u201312,180 cal. BP. The settlement is an example of hunter-gatherer sedentism, a crucial step in the transition from foraging to farming.",
+        "location": {
+            "latitude": 33.086975,
+            "longitude": 35.579159
+        },
+        "inhabitation": {
+            "start": -12400,
+            "end": -10200,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Tell_Abu_Hureyra",
+        "name": "Tell Abu Hureyra",
+        "description": "Tell Abu Hureyra is a prehistoric archaeological site in the Upper Euphrates valley in Syria. The tell was inhabited between 13,300 and 7,800 cal. BP in two main phases: Abu Hureyra 1, dated to the Epipalaeolithic, was a village of sedentary hunter-gatherers; Abu Hureyra 2, dated to the Pre-Pottery Neolithic, was home to some of the world's first farmers. This almost continuous sequence of occupation through the Neolithic Revolution has made Abu Hureyra one of the most important sites in the study of the origins of agriculture.",
+        "location": {
+            "latitude": 35.866,
+            "longitude": 38.4
+        },
+        "inhabitation": {
+            "start": -11000,
+            "end": -5000,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Wadi_Hammeh_27",
+        "name": "Wadi Hammeh 27",
+        "description": "Wadi Hammeh 27 is a Late Epipalaeolithic archaeological site in Pella, Jordan. It consists of the remains of a large settlement dating to the Early Natufian period, about 14,500 to 14,000 years ago.",
+        "location": {
+            "latitude": 32.605,
+            "longitude": 35.643889
+        },
+        "inhabitation": {
+            "start": -12500,
+            "end": -12000,
+            "__start_from_wikidata": false,
+            "__end_from_wikidata": false
+        }
+    },
+    {
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Tell_Qaramel",
+        "name": "Tell Qaramel",
+        "description": "Tell Qaramel is a tell, or archaeological mound, located in Aleppo Governorate, Syria, 25\u00a0km north of Aleppo in the Queiq river basin. The settlement has several circular stone towers dating back to the period between 10,650-9,650 BCE, making them the oldest such structures in the world.",
+        "location": {
+            "latitude": 36.3778,
+            "longitude": 37.2751
+        },
+        "inhabitation": {
+            "start": -10900,
+            "end": -8700,
+            "__start_from_wikidata": true,
+            "__end_from_wikidata": true
+        }
     }
 ]

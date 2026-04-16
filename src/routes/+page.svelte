@@ -26,6 +26,8 @@
     };
 
     let year = $state(-10000);
+    const minYear = -25000;
+    const maxYear = -1000;
     let yearSlider = $state(true);
 
     // omit pleiades settlementes for now
@@ -44,7 +46,7 @@
     <input bind:checked={yearSlider} type="checkbox" id="show-year-slider" />
     {#if yearSlider}
         <p>{year}</p>
-        <input bind:value={year} id="year-slider" type="range" min="-15000" max="-1000" step="100" />
+        <input bind:value={year} id="year-slider" type="range" min="{minYear}" max="{maxYear}" step="100" />
     {/if}
 </div>
 
@@ -121,12 +123,14 @@
         transform: translateX(-50%);
         z-index: 1;
         background-color: white;
+        width: 100%;
 
         p {
             margin: 0;
         }
 
         #year-slider {
+            width: max-content;
         }
     }
 
